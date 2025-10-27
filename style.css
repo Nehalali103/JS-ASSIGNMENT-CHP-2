@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.top-heading {
+    justify-content: center;
+    margin: 30px;
+}
+
+#demotext {
+color: #FFFFFF;
+/* background: #232323; */
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: green;
+/* background: green; */
+}
+
+.btn-section {
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-section>button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 139, 0.795);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-section>button:hover {
+    border-color: blueviolet;
+    background-color: white;
+    color: blueviolet;
+}
